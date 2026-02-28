@@ -43,3 +43,6 @@ let {
 
 console.log(myRoll, myName, city, country, roadNumber, test, rest);
 
+***// যদি অবজেক্টে কোনো প্রপার্টি না থাকে, তবে আপনি একটি ডিফল্ট মান সেট করে দিতে পারেন যাতে undefined না দেখায়।
+const { country = 'Bangladesh' } = user;
+
