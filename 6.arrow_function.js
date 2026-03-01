@@ -32,3 +32,14 @@ let person = {
 };
 
 person.showMyInfo();
+
+// ***const person = {
+//   name: "Apu",
+//   greet: () => {
+//     console.log(this.name);
+//   }
+// };
+
+// এখানে this → person না, বরং বাইরের scope (window বা undefined)।
+
+// ⚠️ তাই object method হিসেবে arrow function ব্যবহার করা ঠিক না।
